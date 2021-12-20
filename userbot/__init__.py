@@ -176,7 +176,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/531dad90833db07c98b33.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/9b2481f3793c5ddcdf380.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -315,7 +315,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "『☠️ Alvin-UserBot Has Been Deployed ☠️』\nSend `;help` If You Need A Help Of UserBot")
+    await bot.send_message(BOTLOG_CHATID, "『☠️ Okaeri-UserBot Has Been Deployed ☠️』\nSend `;help` If You Need A Help Of UserBot")
     return
 
 with bot:
@@ -419,21 +419,21 @@ with bot:
                     buttons=[
                         [
                             InlineKeyboardButton(
-                                "⚜️Creator🔰", url=f"https://t.me/Alvin_junior"),],
+                                "⚜️Creator🔰", url=f"https://t.me/zenfrans"),],
                         [
                             InlineKeyboardButton(
-                                "☠️ Alvin-UserBot ☠️", url=f"https://github.com/fahrial2310/Alvin-UserBot"),],
+                                "☠️ Okaeri-UserBot ☠️", url=f"https://github.com/Wahyu213.Okaeri-UserBot"),],
                         [
                             InlineKeyboardButton(
-                                "☠️ Group Support", url=f"https://t.me/Alvin_image_editor_Group"),
+                                "☠️ Group Support", url=f"https://t.me/OkaeriUserbot"),
                             InlineKeyboardButton(
-                                "☠️ Channel Updates", url=f"https://t.me/Alvin_image_editor"),],
+                                "☠️ Channel Updates", url=f"https://t.me/nbzoning"),],
                         [
                             InlineKeyboardButton(
-                                "☠️ Deploy To Heroku ☠️", url=f"https://heroku.com/deploy?template=https://github.com/fahrial2310/Alvin-UserBot/tree/Alvin-UserBot"),],
+                                "☠️ Deploy To Heroku ☠️", url=f"https://heroku.com/deploy?template=https://github.com/Wahyu213/Okaeri-UserBot/tree/Okaeri-UserBot"),],
                         [
                             InlineKeyboardButton(
-                                "Need Help To Deploy?", url=f"https://github.com/fahrial2310/Alvin-UserBot/blob/Alvin-UserBot/NeedHelpToDeploy%3F"),],
+                                "Need Help To Deploy?", url=f"https://github.com/Wahyu213/Okaeri-UserBot/blob/Okaeri-UserBot/NeedHelpToDeploy%3F"),],
                     ],
                     link_preview=False,
                 )
@@ -453,7 +453,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Please Deploy Your Own Alvin-Userbot, Don't Use Alvin's {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Please Deploy Your Own AOkaeri-Userbot, Don't Use Okaeri's {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -471,7 +471,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Please Deploy Your Own Alvin-UserBot, Don't Use Alvin's {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Please Deploy Your Own Okaeri-UserBot, Don't Use Okaeri's {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -502,7 +502,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Please Deploy Your Own Alvin-UserBot, Don't Use Alvin's {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Please Deploy Your Own Okaeri-UserBot, Don't Use Okaeri's {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
